@@ -1,0 +1,40 @@
+1- Function name: ADD_SIGNAL()
+   
+ - Function parameters : Frequency - Amplitude of new signal that we need to add.
+ - Function Return : Time and Amplitude of the resulted signal after adding that we need to plot.
+Function that is used to add multiple signals by using frequencies and amplitudes entered by users. 
+
+2- Function name: Clean_initialize()
+- Function parameters: None. 
+- Function Return : None. 
+Function clean the graph from gargbe to start from zero.
+
+3-Function name: DELETE_SIGNAL()
+- Function parameters : index of signal that we need to remove.
+- Function Return : Time - New Amplitude after deleting.
+Function to delete signal from the list and plot the signals.
+
+4- Function name: readCsv() 
+ - Function parameters : csv file. 
+ - Function Return : Time - Added amplitudes.
+Function that read csv file when we upload the file.
+
+5- Function name: sampling()  
+ - Function parameters : Sampling Freqency(fsample) - Time (t) - Signal (sin).
+ - Function Return : Sample Time - Sample Amplitude.
+Function that sample the signal that we need to make sampling for it.
+
+6- Function name: sinc_interp()
+- Function parameters : Sampling Freqency(fsample) - Time (t) - Signal (sin).
+- Function Return : Reconstructed signal - Sampling time - Sampling ammplitude.
+Function used to make sinc interploation (recounstract) on the signal.
+
+7- Function name: noise()
+- Function parameters : Siganl - SNR (Signal to Noise Ratio).
+- Function Return : Noised signal.
+Function that make noise on the signal.
+
+8- Function name: save()
+- Function Parameters : Signal (sin).
+- Function Return : None.
+Function used to save the signal as csv file on our PC.

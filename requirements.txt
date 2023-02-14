@@ -1,0 +1,9 @@
+matplotlib library==3.6.0
+plotly library==5.10.0
+pandas library==1.5.1
+streamlit library==1.13.0
+csv library==3.10.8
+numpy library==1.23.4
+StringIO library==2.7.2.
+math library==3.10.8
+

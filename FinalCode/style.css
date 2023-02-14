@@ -1,0 +1,48 @@
+/*H1 style */
+span.css-10trblm.e16nr0p30
+{
+    transform: translateY(-80px);
+}
+/*upload container*/
+div.css-8u98yl.exg6vvm0
+{
+    transform: translateY(-90px);
+}
+/*plot style */
+div.stPlotlyChart.js-plotly-plot
+{
+    transform: translate(-70px,-120px);
+}
+/*transform sidebar at vertical axis */
+div.block-container.css-128j0gw.egzxvld2{
+    transform: translateY(-5px);
+}
+/*Add noise and add signal buttons */
+button.css-16u8z0w.edgvbvh9
+{
+    transform: translate(40px,-30px);
+    width: 100px;
+    border-radius: 30px;
+}
+div.css-1p05t8e.epcbefy1
+{
+    transform: translateY(-30px);
+}
+/*upload and download buttons*/
+button.css-1uqmt5j.edgvbvh9
+{
+    transform: translateY(-8px);
+    border-radius: 30px;
+}
+/*Delete button*/
+button.css-16u8z0w.edgvbvh5
+{
+    border-radius: 30px;
+}
+/* button:hover{
+    background-color: rgb(228, 102, 102);
+} */
+div.row-widget.stDownloadButton
+{
+    transform: translate(-220px,-180px);
+}
